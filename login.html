@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Presidential Agency</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Presidential Agency</h1>
+        <div id="registrationForm">
+            <h2>Create an Account</h2>
+            <form id="registerForm">
+                <label for="regUsername">Username:</label>
+                <input type="text" id="regUsername" name="regUsername" required><br>
+                <label for="regPassword">Password:</label>
+                <input type="password" id="regPassword" name="regPassword" required><br>
+                <button type="submit">Register</button>
+            </form>
+        </div>
+        <div id="loginForm" style="display: none;">
+            <h2>Login</h2>
+            <form id="loginForm">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+        <div id="output"></div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
