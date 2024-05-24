@@ -8,7 +8,7 @@ form {
     margin-bottom: 20px;
 }
 
-button {
+#registerButton {
     margin-top: 10px;
     background: linear-gradient(to right, #ffcc00, #09daff);
     border-radius: 20px;
@@ -16,10 +16,15 @@ button {
     font-size: 1.5rem;
 }
 
-button:hover {
+#registerButton:hover {
     background: linear-gradient(to left, #ffcc00, #09daff);
 }
 
 #output {
     margin-top: 20px;
+}
+
+.dark-mode {
+    color: white;
+    background-color: black;
 }
