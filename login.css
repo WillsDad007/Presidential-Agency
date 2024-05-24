@@ -10,6 +10,14 @@ form {
 
 button {
     margin-top: 10px;
+    background: linear-gradient(to right, #ffcc00, #09daff);
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    background: linear-gradient(to left, #ffcc00, #09daff);
 }
 
 #output {
