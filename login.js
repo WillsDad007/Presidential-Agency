@@ -8,7 +8,7 @@ let registeredPassword = "";
 
 document.getElementById("registerForm").addEventListener("submit", function(event) {
     event.preventDefault();
-    
+    alert("Your account has been successfully created!");
     registeredUsername = document.getElementById("regUsername").value;
     registeredPassword = document.getElementById("regPassword").value;
     document.getElementById("registrationForm").style.display = "none";
